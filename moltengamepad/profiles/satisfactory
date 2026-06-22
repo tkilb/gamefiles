@@ -1,0 +1,54 @@
+# PROFILE: satisfactory
+#################################
+
+###|   _   |   P   |   R   |   M   |   I   |       |   T   |       |       |
+###|===============================================================================
+#5#|       |   0   |   9   |   3   |   v   |       |       |
+#4#|       |   8   |   7   |   8   |   5   |       |       |
+#3#|   f   |   1   |   2   |   w   |   4   |   q   |   r   |   =   |  tab  |  esc  
+#2#|       |  lctr | lshft |  spc  |   e   |       |       |
+#1#|       |  lalt |   z   |   x   |   m   |       |       |
+
+# Pinkie
+#################################
+cyborg.pe         = key(key_f)
+
+cyborg.p5         = key(key_0)
+cyborg.p4         = key(key_8)
+cyborg.p3         = key(key_1)
+cyborg.p2         = key(key_leftctrl)
+cyborg.p1         = key(key_leftalt)
+
+# Ring
+#################################
+cyborg.r5         = key(key_9)
+cyborg.r4         = key(key_7)
+cyborg.r3         = key(key_2)
+cyborg.r2         = key(key_leftshift)
+cyborg.r1         = key(key_z)
+
+# Middle
+#################################
+cyborg.m5         = key(key_3)
+cyborg.m4         = key(key_6)
+cyborg.m3         = key(key_w)
+cyborg.m2         = key(key_space)
+cyborg.m1         = key(key_x)
+
+# Index
+#################################
+cyborg.i5         = key(key_v)
+cyborg.i4         = key(key_5)
+cyborg.i3         = key(key_4)
+cyborg.i2         = key(key_e)
+cyborg.i1         = key(key_m)
+
+cyborg.ie         = key(key_q)
+
+# Thumb
+#################################
+cyborg.t4         = key(key_r)
+cyborg.t3         = key(key_equal)
+cyborg.t2         = key(key_tab)
+cyborg.t1         = key(key_esc)
+

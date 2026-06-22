@@ -1,0 +1,95 @@
+# PROFILE: redout-2
+#################################
+
+# Peddals
+#################################
+tlcm.abs_x          = tr2_axis
+# lcm.abs_y          = key_z,fourth
+tlcm.abs_y          = pedal2btn(tl)
+# tlcm.abs_z          = tl2_axis
+# tlcm.abs_x          = left_y@
+# tlcm.abs_y          = pedal2btn(key_leftalt)
+# tlcm.abs_z          = pedal2btn(key_s)
+
+# Right Stick
+#################################
+# Axis
+#vkb-right.abs_x     = mouse(rel_x)
+vkb-right.abs_x     = left_x
+vkb-right.abs_y     = right_y
+
+# # Triggers
+vkb-right.g__t1a       = right
+# # vkb-right.t1b       = key(key_2)
+# vkb-right.t2a       = key(key_rightbrace)
+# # vkb-right.t2b       = key(key_4)
+#
+# # Thumbs
+vkb-right.g__th1       = tr
+# vkb-right.th1       = down
+# vkb-right.th2       = key(key_k)
+#
+# # Sides
+# vkb-right.i1        = key(key_0)
+# vkb-right.p1        = key(key_e)
+#
+# # Hats
+# #vkb-right.abs_hat0x = key_z, key_y
+# vkb-right.abs_hat0y = key_equal, key_minus
+#
+# #vkb-right.hat1u = key(key_equal)
+# #vkb-right.hat1r = key(key_0)
+# #vkb-right.hat1d = key(key_minus)
+# #vkb-right.hat1l = key(key_0)
+# vkb-right.hat1c = key(key_pagedown)
+#
+# #vkb-right.hat2u = key(key_)
+# vkb-right.hat2r = key(key_b)
+# #vkb-right.hat2d = key(key_)
+# #vkb-right.hat2l = key(key_)
+#
+# # Base
+# vkb-right.f1        = key(key_0)
+# vkb-right.f2        = key(key_0)
+# vkb-right.f3        = key(key_0)
+#
+#
+# # Left Stick
+# #################################
+# # Axis
+vkb-left.abs_x     = -right_x
+# vkb-left.abs_y     = left_y
+#
+# # Triggers
+vkb-left.g__t1a       = left
+# #vkb-left.t1b       = key(key_2)
+# vkb-left.t2a       = key(key_leftbrace)
+# #vkb-left.t2b       = key(key_4)
+#
+# # Thumbs
+vkb-left.g__th1       = down
+# vkb-left.th2       = key(key_h)
+#
+# # Sides
+# vkb-left.i1        = key(key_j)
+# vkb-left.p1        = key(key_space)
+#
+# # Hats
+# #vkb-left.abs_hat0x = axis2btns(left, right)
+# vkb-left.abs_hat0y = key_equal, key_minus
+#
+# #vkb-left.hat1u = key(key_)
+# vkb-left.hat1r = key(key_t)
+# #vkb-left.hat1d = key(key_)
+# vkb-left.hat1l = key(key_backspace)
+# vkb-left.hat1c = key(key_n)
+#
+# vkb-left.hat2u = key(key_0)
+# vkb-left.hat2r = key(key_0)
+# vkb-left.hat2d = key(key_0)
+#
+# # Base
+# vkb-left.f1        = key(key_0)
+# vkb-left.f2        = key(key_0)
+# vkb-left.f3        = key(key_0)
+

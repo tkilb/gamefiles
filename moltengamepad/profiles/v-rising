@@ -1,0 +1,55 @@
+# PROFILE: v-rising
+#################################
+
+###|   _   |   P   |   R   |   M   |   I   |       |   T   |       |       |
+###|===============================================================================
+#5#|       |  esc  |   _   |   _   |   b   |       |       |
+#4#|       |   5   |   6   |   7   |   8   |       |       |
+#3#|   0   |   1   |   2   |   3   |   4   |   t   |   bs  |   =   |  tab  |   esc
+#2#|       |  lctr | lshft |   q   |   f   |       |       |
+#1#|       |  lalt |   x   |   e   |   m   |       |       |
+
+
+# Pinkie
+#################################
+cyborg.pe         = key(key_0)
+
+cyborg.p5         = key(key_esc)
+cyborg.p4         = key(key_5)
+cyborg.p3         = key(key_1)
+cyborg.p2         = key(key_leftctrl)
+cyborg.p1         = key(key_leftalt)
+
+# Ring
+#################################
+cyborg.r5         = key(key_fn)
+cyborg.r4         = key(key_6)
+cyborg.r3         = key(key_2)
+cyborg.r2         = key(key_leftshift)
+cyborg.r1         = key(key_x)
+
+# Middle
+#################################
+cyborg.m5         = key(key_fn)
+cyborg.m4         = key(key_7)
+cyborg.m3         = key(key_3)
+cyborg.m2         = key(key_q)
+cyborg.m1         = key(key_e)
+
+# Index
+#################################
+cyborg.i5         = key(key_b)
+cyborg.i4         = key(key_8)
+cyborg.i3         = key(key_4)
+cyborg.i2         = key(key_f)
+cyborg.i1         = key(key_m)
+
+cyborg.ie         = key(key_t)
+
+# Thumb
+#################################
+cyborg.t4         = key(key_backspace)
+cyborg.t3         = key(key_equal)
+cyborg.t2         = key(key_tab)
+cyborg.t1         = key(key_esc)
+

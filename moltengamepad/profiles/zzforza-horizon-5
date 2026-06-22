@@ -1,0 +1,89 @@
+# PROFILE: forza-horizon-5
+#################################
+
+# Peddals
+#################################
+tlcm.abs_x          = tr2_axis
+tlcm.abs_z          = tl2_axis
+tlcm.abs_y          = pedal2btn(tl)
+
+# Right Stick
+#################################
+# Axis
+vkb-right.abs_x     = left_x
+# vkb-right.abs_y     = 
+
+# Triggers
+vkb-right.t1a       = key(key_d)
+# vkb-right.t1b       = 
+vkb-right.g__t2a       = thumbr
+# vkb-right.t2b       = 
+
+# Thumbs
+vkb-right.g__th1      = thumbr
+# vkb-right.th2       = 
+
+# Sides
+vkb-right.g__i1        = select
+vkb-right.g__p1        = third
+
+# Hats
+# vkb-right.abs_hat0x = 
+# vkb-right.abs_hat0y = 
+
+# vkb-right.g__hat1u = 
+# vkb-right.g__hat1r = 
+# vkb-right.g__hat1d = 
+# vkb-right.g__hat1l = 
+# vkb-right.hat1c = 
+
+# vkb-right.hat2u = 
+# vkb-right.hat2r = 
+# vkb-right.hat2d = 
+# vkb-right.hat2l = 
+
+# Base
+# vkb-right.f1        = 
+# vkb-right.f2        = 
+# vkb-right.f3        = 
+
+
+# Left Stick
+#################################
+# Axis
+# vkb-left.abs_x     = -right_x
+# vkb-left.abs_y     = right_y
+
+# Triggers
+vkb-left.t1a       = key(key_a)
+# vkb-left.t1b       = 
+# vkb-left.t2a       = 
+# vkb-left.t2b       = 
+
+# Thumbs
+vkb-left.g__th1       = first
+vkb-left.g__th2       = fourth
+
+# Sides
+vkb-left.g__i1          = thumbl
+vkb-left.g__p1        = second
+
+# Hats
+# vkb-left.abs_hat0x = 
+# vkb-left.abs_hat0y = 
+
+vkb-left.g__hat1u = up
+vkb-left.g__hat1r = right
+vkb-left.g__hat1d = down
+vkb-left.g__hat1l = left
+# vkb-left.hat1c = 
+
+# vkb-left.hat2u = 
+# vkb-left.hat2r = 
+# vkb-left.hat2d = 
+
+# Base
+# vkb-left.f1        = 
+# vkb-left.f2        = 
+# vkb-left.f3        = 
+

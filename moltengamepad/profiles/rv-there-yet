@@ -1,0 +1,62 @@
+# PROFILE: rv-there-yet
+#################################
+
+###|   _   |   P   |   R   |   M   |   I   |       |   T   |       |       |
+###|===============================================================================
+#5#|       |   u   |   i   |   o   |   p   |       |       |
+#4#|       |   q   |   y   |   t   |   5   |       |       |
+#3#|   0   |   1   |   2   |   3   |   4   |   r   |   bs  |   =   |  tab  |  esc  
+#2#|       |  lctr | lshft |  spc  |   e   |       |       |
+#1#|       |  lalt |   z   |   x   |   m   |       |       |
+
+###|   _   |   P   |   R   |   M   |   I   |       |   T   |       |       |
+###|===============================================================================
+#5#|       |   _   |   _   |   _   |   _   |       |       |
+#4#|       |   _   |   _   |   _   |   _   |       |       |
+#3#|   _   |   _   |   _   |   _   |   _   |   _   |   bs  |   =   |  tab  |  esc  
+#2#|       |   _   |   _   |   _   |   _   |       |       |
+#1#|       |   _   |   _   |   _   |   _   |       |       |
+
+# Pinkie
+#################################
+cyborg.pe         = key(key_0)
+
+cyborg.p5         = key(key_u)
+cyborg.p4         = key(key_q)
+cyborg.p3         = key(key_1)
+cyborg.p2         = key(key_leftctrl)
+cyborg.p1         = key(key_leftalt)
+
+# Ring
+#################################
+cyborg.r5         = key(key_i)
+cyborg.r4         = key(key_y)
+cyborg.r3         = key(key_2)
+cyborg.r2         = key(key_leftshift)
+cyborg.r1         = key(key_z)
+
+# Middle
+#################################
+cyborg.m5         = key(key_o)
+cyborg.m4         = key(key_t)
+cyborg.m3         = key(key_3)
+cyborg.m2         = key(key_space)
+cyborg.m1         = key(key_x)
+
+# Index
+#################################
+cyborg.i5         = key(key_p)
+cyborg.i4         = key(key_5)
+cyborg.i3         = key(key_4)
+cyborg.i2         = key(key_e)
+cyborg.i1         = key(key_m)
+
+cyborg.ie         = key(key_r)
+
+# Thumb
+#################################
+cyborg.t4         = key(key_backspace)
+cyborg.t3         = key(key_equal)
+cyborg.t2         = key(key_tab)
+cyborg.t1         = key(key_esc)
+

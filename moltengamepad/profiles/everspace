@@ -1,0 +1,95 @@
+# PROFILE: everspace
+#################################
+
+# Peddals
+#################################
+tlcm.abs_y          = pedal2btn(thumbl)
+#tlcm.abs_z          = pedal2btn(tl)
+#tlcm.abs_x          = pedal2btn(tl2)
+#tlcm.abs_x          = tl2_axis
+tlcm.abs_z          = left_y^
+tlcm.abs_x          = left_y%
+
+#
+# Right Stick
+#################################
+# Axis
+vkb-right.abs_x    = right_x
+vkb-right.abs_y    = right_y
+vkb-right.abs_z    = left_x
+
+# Triggers
+vkb-right.g__t1a   = tr2
+# vkb-right.t1b    = 
+# vkb-right.t2a    = 
+vkb-right.g__t2b   = tl2
+
+# Thumbs
+vkb-right.g__th1   = tr
+#vkb-right.th2      = key(key_j)
+
+# Sides
+vkb-right.p1       = key(key_j)
+vkb-right.g__i1    = first
+
+# Hats
+#vkb-right.abs_hat0x =
+#vkb-right.abs_hat0y =
+
+#vkb-right.hat1u = 
+vkb-right.g__hat1r = select
+#vkb-right.hat1d =
+vkb-right.g__hat1l = tl
+#vkb-right.hat1c = 
+
+#vkb-right.hat2u = 
+#vkb-right.hat2r = 
+#vkb-right.hat2d = 
+#vkb-right.hat2l = 
+
+# Base
+#vkb-right.f1        = 
+#vkb-right.f2        = 
+#vkb-right.f3        = 
+
+
+# Left Stick
+#################################
+# Axis
+vkb-left.abs_x     = right,left 
+vkb-left.abs_y     = up,down 
+# vkb-left.abs_y     = left_y
+
+# Triggers
+vkb-left.g__t1a    = thumbr
+#vkb-left.t1b      = 
+#vkb-left.g__t2a   =
+vkb-left.g__t2b    = key(key_y)
+
+# Thumbs
+vkb-left.g__th1    = third
+vkb-left.g__th2    = second
+
+# Sides
+vkb-left.i1        = key(key_esc)
+vkb-left.p1        = key(key_k)
+
+# Hats
+#vkb-left.abs_hat0x = 
+#vkb-left.abs_hat0y = 
+
+#vkb-left.hat1u = 
+vkb-left.g__hat1r  = start
+vkb-left.g__hat1d  = fourth
+#vkb-left.hat1l = 
+vkb-left.hat1c = key(key_tab)
+
+#vkb-left.hat2u = 
+#vkb-left.hat2r = 
+#vkb-left.hat2d = 
+
+# Base
+#vkb-left.f1        = key(key_0)
+#vkb-left.f2        = key(key_0)
+#vkb-left.f3        = key(key_0)
+
