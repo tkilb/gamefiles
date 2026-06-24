@@ -75,7 +75,8 @@ vkb-left.p1        = key(key_space)
 
 # Hats
 #vkb-left.abs_hat0x = axis2btns(left, right)
-vkb-left.abs_hat0y = key_equal, key_minus
+vkb-left.abs_hat0x = key_a, key_d
+vkb-left.abs_hat0y = key_w, key_minus
 
 #vkb-left.hat1u = key(key_)
 vkb-left.hat1r = key(key_t)

@@ -1,0 +1,12 @@
+START_BIND
+NAME: VKB Gladiator EVO R
+VID: 0x231D
+PID: 0x0200
+AXIS: InAxis=GenericUSBController_Axis1, OutAxis=Joystick_Axis1, Invert=FALSE, Offset=0.5, DeadZone=0.0, Sensitivity=1.0
+AXIS: InAxis=GenericUSBController_Axis2, OutAxis=Joystick_Axis2, Invert=FALSE, Offset=0.5, DeadZone=0.0, Sensitivity=1.0
+AXIS: InAxis=GenericUSBController_Axis3, OutAxis=Joystick_Axis3, Invert=FALSE, Offset=0.5, DeadZone=0.0, Sensitivity=1.0
+AXIS: InAxis=GenericUSBController_Axis4, OutAxis=Joystick_Axis4, Invert=FALSE, Offset=0.5, DeadZone=0.0, Sensitivity=1.0
+
+
+AXIS: InAxis=GenericUSBController_Axis1, OutAxis=Joystick_Axis1, Invert=FALSE, Offset=0.0, DeadZoneMin=0.3, DeadZoneMax=0.3, MapToDeadZone=FALSE
+AXIS: InAxis=HOTAS_YAxis, OutAxis=Joystick_Axis1, Invert=FALSE, Offset=-0.498039, DeadZoneMin=-0.3, DeadZoneMax=0.3, MapToDeadZone=FALSE

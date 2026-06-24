@@ -1,0 +1,9 @@
+START_BIND
+NAME: MoltenJoystick
+VID: 0x1234
+PID: 0xBEAD
+DeviceName: Molten Joystick
+
+AXIS: InAxis=GenericUSBController_Axis1, OutAxis=Joystick_Axis1, Invert=FALSE, Offset=-0.201, DeadZoneMin=0.1, DeadZoneMax=0.1, MapToDeadZone=FALSE
+
+END_BIND

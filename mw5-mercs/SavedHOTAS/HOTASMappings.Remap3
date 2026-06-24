@@ -1,0 +1,6 @@
+START_BIND
+NAME: VKBsim Gladiator EVO L
+VID: 0x231D
+PID: 0x0201
+
+AXIS: InAxis=HOTAS_XAxis, OutAxis=Joystick_Axis1, Invert=FALSE, Offset=-0.5, DeadZoneMin=-0.1, DeadZoneMax=0.1, MapToDeadZone=TRUE
