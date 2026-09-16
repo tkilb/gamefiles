@@ -1,0 +1,9 @@
+2026-07-02T21:29:24.494Z INFO  Essentials for Spotify: Connected to Stream Deck.
+2026-07-02T21:29:24.499Z INFO  Essentials for Spotify: Found global settings.
+2026-07-02T21:29:24.499Z INFO  Essentials for Spotify: Starting connector setup.
+2026-07-02T21:29:24.510Z INFO  Essentials for Spotify: Overlay server listening on port "6546".
+2026-07-02T21:29:24.717Z INFO  Essentials for Spotify: The access token has been refreshed.
+2026-07-02T22:29:42.626Z INFO  Essentials for Spotify: The access token has been refreshed.
+2026-07-02T23:29:54.662Z INFO  Essentials for Spotify: The access token has been refreshed.
+2026-07-06T01:03:04.566Z ERROR Essentials for Spotify: An error occured while updating playback state: "fetch failed" @ "TypeError: fetch failed".
+2026-07-06T01:03:35.374Z INFO  Essentials for Spotify: The access token has been refreshed.

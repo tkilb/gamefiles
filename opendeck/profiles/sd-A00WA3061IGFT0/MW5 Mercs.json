@@ -1,0 +1,1778 @@
+{
+  "keys": [
+    {
+      "action": {
+        "controllers": [
+          "Keypad"
+        ],
+        "disable_automatic_states": false,
+        "icon": "opendeck/multi-action.png",
+        "name": "Multi Action",
+        "plugin": "opendeck",
+        "property_inspector": "",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "opendeck/multi-action.png",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": false,
+        "tooltip": "Execute multiple actions",
+        "uuid": "opendeck.multiaction",
+        "visible_in_action_list": true
+      },
+      "children": [
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.0.1",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F5)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.0.2",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F1)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.0.3",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F1)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.0.4",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F5)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        }
+      ],
+      "context": "Keypad.0.0",
+      "current_state": 0,
+      "settings": {},
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 22,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "ATK",
+          "underline": false
+        }
+      ]
+    },
+    {
+      "action": {
+        "controllers": [
+          "Keypad"
+        ],
+        "disable_automatic_states": false,
+        "icon": "opendeck/multi-action.png",
+        "name": "Multi Action",
+        "plugin": "opendeck",
+        "property_inspector": "",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "opendeck/multi-action.png",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": false,
+        "tooltip": "Execute multiple actions",
+        "uuid": "opendeck.multiaction",
+        "visible_in_action_list": true
+      },
+      "children": [
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.1.1",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F5)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.1.2",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F1)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.1.3",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F3)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.1.4",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F5)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        }
+      ],
+      "context": "Keypad.1.0",
+      "current_state": 0,
+      "settings": {},
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 22,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "GTO",
+          "underline": false
+        }
+      ]
+    },
+    {
+      "action": {
+        "controllers": [
+          "Keypad"
+        ],
+        "disable_automatic_states": true,
+        "icon": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/images/actions/song-stack@2x.png",
+        "name": "Song Stack",
+        "plugin": "com.ntanis.essentials-for-spotify.sdPlugin",
+        "property_inspector": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/pi/song-stack-button.html",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/images/states/song-stack@2x.png",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": true,
+        "tooltip": "Displays the information of the current song and offers a variety of control actions.",
+        "uuid": "com.ntanis.essentials-for-spotify.song-stack-button",
+        "visible_in_action_list": true
+      },
+      "children": null,
+      "context": "Keypad.2.0",
+      "current_state": 0,
+      "settings": {
+        "double_press": "next_song",
+        "long_press": "like_unlike",
+        "show": [
+          "name"
+        ],
+        "single_press": "play_pause",
+        "time_display": "duration",
+        "triple_press": "previous_song"
+      },
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/images/states/song-stack-unknown@2x.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 16,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "",
+          "underline": false
+        }
+      ]
+    },
+    {
+      "action": {
+        "controllers": [
+          "Keypad",
+          "Encoder"
+        ],
+        "disable_automatic_states": false,
+        "icon": "plugins/com.havner.uinput.sdPlugin/icons/uinputSimulation.png",
+        "name": "Simulate Input",
+        "plugin": "com.havner.uinput.sdPlugin",
+        "property_inspector": "plugins/com.havner.uinput.sdPlugin/propertyInspector/uinputSimulation.html",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "plugins/com.havner.uinput.sdPlugin/icons/uinputSimulation.png",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": true,
+        "tooltip": "Simulate mouse or keyboard input",
+        "uuid": "com.havner.uinput.simulation",
+        "visible_in_action_list": true
+      },
+      "children": null,
+      "context": "Keypad.3.0",
+      "current_state": 0,
+      "settings": {
+        "anticlockwise": "",
+        "clockwise": "",
+        "down": "[k(O,p)]",
+        "up": "[k(O,r)]"
+      },
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 22,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "OVR",
+          "underline": false
+        }
+      ]
+    },
+    {
+      "action": {
+        "controllers": [
+          "Keypad"
+        ],
+        "disable_automatic_states": false,
+        "icon": "opendeck/multi-action.png",
+        "name": "Multi Action",
+        "plugin": "opendeck",
+        "property_inspector": "",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "opendeck/multi-action.png",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": false,
+        "tooltip": "Execute multiple actions",
+        "uuid": "opendeck.multiaction",
+        "visible_in_action_list": true
+      },
+      "children": [
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.4.1",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F5)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.4.2",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F1)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.4.3",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F2)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+            "name": "Simulate Input",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/inputSimulation.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Simulate mouse or keyboard input",
+            "uuid": "com.amansprojects.starterpack.inputsimulation",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.4.4",
+          "current_state": 0,
+          "settings": {
+            "anticlockwise": "",
+            "clockwise": "",
+            "down": "[k(F5)]",
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/inputSimulation.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        }
+      ],
+      "context": "Keypad.4.0",
+      "current_state": 0,
+      "settings": {},
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 22,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "FLW",
+          "underline": false
+        }
+      ]
+    },
+    {
+      "action": {
+        "controllers": [
+          "Keypad"
+        ],
+        "disable_automatic_states": false,
+        "icon": "opendeck/multi-action.png",
+        "name": "Multi Action",
+        "plugin": "opendeck",
+        "property_inspector": "",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "opendeck/multi-action.png",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": false,
+        "tooltip": "Execute multiple actions",
+        "uuid": "opendeck.multiaction",
+        "visible_in_action_list": true
+      },
+      "children": [
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+            "name": "Run Command",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/runCommand.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Run a command",
+            "uuid": "com.amansprojects.starterpack.runcommand",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.5.1",
+          "current_state": 0,
+          "settings": {
+            "down": "playerctl --player=spotify volume 0.0",
+            "file": "",
+            "rotate": "",
+            "show": false,
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad"
+            ],
+            "disable_automatic_states": true,
+            "icon": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/images/actions/play-context@2x.png",
+            "name": "Play Context",
+            "plugin": "com.ntanis.essentials-for-spotify.sdPlugin",
+            "property_inspector": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/pi/play-context-button.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/images/states/play-context@2x.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Map this button to any supported Spotify URL and press it to start playing.",
+            "uuid": "com.ntanis.essentials-for-spotify.play-context-button",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.5.2",
+          "current_state": 0,
+          "settings": {
+            "show": [],
+            "spotify_url": "https://open.spotify.com/playlist/0Ym2JqRqnQmDFWrIzCm4nJ?si=edd673a7362e4602"
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "0.jpeg",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+            "name": "Run Command",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/runCommand.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Run a command",
+            "uuid": "com.amansprojects.starterpack.runcommand",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.5.3",
+          "current_state": 0,
+          "settings": {
+            "down": "playerctl --player=spotify volume 0.4",
+            "file": "",
+            "rotate": "",
+            "show": false,
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        }
+      ],
+      "context": "Keypad.5.0",
+      "current_state": 0,
+      "settings": {},
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 16,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "",
+          "underline": false
+        }
+      ]
+    },
+    {
+      "action": {
+        "controllers": [
+          "Keypad"
+        ],
+        "disable_automatic_states": false,
+        "icon": "opendeck/multi-action.png",
+        "name": "Multi Action",
+        "plugin": "opendeck",
+        "property_inspector": "",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "opendeck/multi-action.png",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": false,
+        "tooltip": "Execute multiple actions",
+        "uuid": "opendeck.multiaction",
+        "visible_in_action_list": true
+      },
+      "children": [
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+            "name": "Run Command",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/runCommand.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Run a command",
+            "uuid": "com.amansprojects.starterpack.runcommand",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.6.1",
+          "current_state": 0,
+          "settings": {
+            "down": "playerctl --player=spotify volume 0.0",
+            "file": "",
+            "rotate": "",
+            "show": false,
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad"
+            ],
+            "disable_automatic_states": true,
+            "icon": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/images/actions/play-context@2x.png",
+            "name": "Play Context",
+            "plugin": "com.ntanis.essentials-for-spotify.sdPlugin",
+            "property_inspector": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/pi/play-context-button.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.ntanis.essentials-for-spotify.sdPlugin/images/states/play-context@2x.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Map this button to any supported Spotify URL and press it to start playing.",
+            "uuid": "com.ntanis.essentials-for-spotify.play-context-button",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.6.2",
+          "current_state": 0,
+          "settings": {
+            "show": [],
+            "spotify_url": "https://open.spotify.com/playlist/42NqNIHiB37LuNozKWJ37w?si=989c9d9df4004119"
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "0.jpeg",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        },
+        {
+          "action": {
+            "controllers": [
+              "Keypad",
+              "Encoder"
+            ],
+            "disable_automatic_states": false,
+            "icon": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+            "name": "Run Command",
+            "plugin": "com.amansprojects.starterpack.sdPlugin",
+            "property_inspector": "plugins/com.amansprojects.starterpack.sdPlugin/propertyInspector/runCommand.html",
+            "states": [
+              {
+                "alignment": "middle",
+                "background_colour": "#000000",
+                "colour": "#FFFFFF",
+                "family": "Liberation Sans",
+                "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+                "image_scale": 100,
+                "name": "",
+                "show": true,
+                "size": 16,
+                "stroke_colour": "#000000",
+                "stroke_size": 3,
+                "style": "Regular",
+                "text": "",
+                "underline": false
+              }
+            ],
+            "supported_in_multi_actions": true,
+            "tooltip": "Run a command",
+            "uuid": "com.amansprojects.starterpack.runcommand",
+            "visible_in_action_list": true
+          },
+          "children": null,
+          "context": "Keypad.6.3",
+          "current_state": 0,
+          "settings": {
+            "down": "playerctl --player=spotify volume 0.6",
+            "file": "",
+            "rotate": "",
+            "show": false,
+            "up": ""
+          },
+          "states": [
+            {
+              "alignment": "middle",
+              "background_colour": "#000000",
+              "colour": "#FFFFFF",
+              "family": "Liberation Sans",
+              "image": "plugins/com.amansprojects.starterpack.sdPlugin/icons/runCommand.png",
+              "image_scale": 100,
+              "name": "",
+              "show": true,
+              "size": 16,
+              "stroke_colour": "#000000",
+              "stroke_size": 3,
+              "style": "Regular",
+              "text": "",
+              "underline": false
+            }
+          ]
+        }
+      ],
+      "context": "Keypad.6.0",
+      "current_state": 0,
+      "settings": {},
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 16,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "",
+          "underline": false
+        }
+      ]
+    },
+    {
+      "action": {
+        "controllers": [
+          "Keypad",
+          "Encoder"
+        ],
+        "disable_automatic_states": false,
+        "icon": "plugins/com.havner.uinput.sdPlugin/icons/uinputSimulation.png",
+        "name": "Simulate Input",
+        "plugin": "com.havner.uinput.sdPlugin",
+        "property_inspector": "plugins/com.havner.uinput.sdPlugin/propertyInspector/uinputSimulation.html",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "plugins/com.havner.uinput.sdPlugin/icons/uinputSimulation.png",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": true,
+        "tooltip": "Simulate mouse or keyboard input",
+        "uuid": "com.havner.uinput.simulation",
+        "visible_in_action_list": true
+      },
+      "children": null,
+      "context": "Keypad.7.0",
+      "current_state": 0,
+      "settings": {
+        "anticlockwise": "",
+        "clockwise": "",
+        "down": "[k(O,p)]",
+        "up": "[k(O,r)]"
+      },
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 22,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "PWR",
+          "underline": false
+        }
+      ]
+    }
+  ],
+  "sliders": [
+    {
+      "action": {
+        "controllers": [
+          "Encoder"
+        ],
+        "disable_automatic_states": false,
+        "icon": "plugins/info.degois.damien.opendeck.plugins.rotary-command.sdPlugin/icons/rotary.svg",
+        "name": "Rotary Command",
+        "plugin": "info.degois.damien.opendeck.plugins.rotary-command.sdPlugin",
+        "property_inspector": "plugins/info.degois.damien.opendeck.plugins.rotary-command.sdPlugin/propertyInspector/rotary.html",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "plugins/info.degois.damien.opendeck.plugins.rotary-command.sdPlugin/icons/rotary.svg",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": false,
+        "tooltip": "Execute custom shell commands on rotary encoder actions",
+        "uuid": "info.degois.damien.opendeck.plugins.rotary-command",
+        "visible_in_action_list": true
+      },
+      "children": null,
+      "context": "Encoder.0.0",
+      "current_state": 0,
+      "settings": {
+        "ccw_command": "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%-",
+        "cw_command": "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+",
+        "long_press_command": "steam steam://rungameid/784080",
+        "press_command": ""
+      },
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 16,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "SYS",
+          "underline": false
+        }
+      ]
+    },
+    {
+      "action": {
+        "controllers": [
+          "Encoder"
+        ],
+        "disable_automatic_states": false,
+        "icon": "plugins/info.degois.damien.opendeck.plugins.rotary-command.sdPlugin/icons/rotary.svg",
+        "name": "Rotary Command",
+        "plugin": "info.degois.damien.opendeck.plugins.rotary-command.sdPlugin",
+        "property_inspector": "plugins/info.degois.damien.opendeck.plugins.rotary-command.sdPlugin/propertyInspector/rotary.html",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "plugins/info.degois.damien.opendeck.plugins.rotary-command.sdPlugin/icons/rotary.svg",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": false,
+        "tooltip": "Execute custom shell commands on rotary encoder actions",
+        "uuid": "info.degois.damien.opendeck.plugins.rotary-command",
+        "visible_in_action_list": true
+      },
+      "children": null,
+      "context": "Encoder.1.0",
+      "current_state": 0,
+      "settings": {
+        "ccw_command": "playerctl --player=spotify volume 0.05-",
+        "cw_command": "playerctl --player=spotify volume 0.05+",
+        "long_press_command": "spotify-launcher",
+        "press_command": ""
+      },
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 16,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "SPT",
+          "underline": false
+        }
+      ]
+    },
+    {
+      "action": {
+        "controllers": [
+          "Encoder"
+        ],
+        "disable_automatic_states": false,
+        "icon": "plugins/info.degois.damien.opendeck.plugins.rotary-command.sdPlugin/icons/rotary.svg",
+        "name": "Rotary Command",
+        "plugin": "info.degois.damien.opendeck.plugins.rotary-command.sdPlugin",
+        "property_inspector": "plugins/info.degois.damien.opendeck.plugins.rotary-command.sdPlugin/propertyInspector/rotary.html",
+        "states": [
+          {
+            "alignment": "middle",
+            "background_colour": "#000000",
+            "colour": "#FFFFFF",
+            "family": "Liberation Sans",
+            "image": "plugins/info.degois.damien.opendeck.plugins.rotary-command.sdPlugin/icons/rotary.svg",
+            "image_scale": 100,
+            "name": "",
+            "show": true,
+            "size": 16,
+            "stroke_colour": "#000000",
+            "stroke_size": 3,
+            "style": "Regular",
+            "text": "",
+            "underline": false
+          }
+        ],
+        "supported_in_multi_actions": false,
+        "tooltip": "Execute custom shell commands on rotary encoder actions",
+        "uuid": "info.degois.damien.opendeck.plugins.rotary-command",
+        "visible_in_action_list": true
+      },
+      "children": null,
+      "context": "Encoder.2.0",
+      "current_state": 0,
+      "settings": {
+        "ccw_command": "playerctl --player=spotify previous",
+        "cw_command": "playerctl --player=spotify next",
+        "long_press_command": "",
+        "press_command": "playerctl --player=spotify play-pause"
+      },
+      "states": [
+        {
+          "alignment": "middle",
+          "background_colour": "#000000",
+          "colour": "#FFFFFF",
+          "family": "Liberation Sans",
+          "image": "0.png",
+          "image_scale": 100,
+          "name": "",
+          "show": true,
+          "size": 16,
+          "stroke_colour": "#000000",
+          "stroke_size": 3,
+          "style": "Regular",
+          "text": "TRK",
+          "underline": false
+        }
+      ]
+    },
+    null
+  ]
+}

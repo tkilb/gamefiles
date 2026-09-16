@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Installation | Essentials for Spotify</title>
+	<link rel="shortcut icon" href="logo.png" />
+	<link rel="stylesheet" href="/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="form-container">
+		<div class="header">
+			<img alt="Essentials for Spotify" src="logo.png" />
+			<h1>Essentials for Spotify <span data-localize="installation">Installation</span></h1>
+		</div>
+
+		<div class="instructions">
+			<span id="success">
+				<span data-localize-html="success_message">The installation has been <b>completed successfully</b>!</span>
+				<br />
+				<span data-localize="close_message">You may close this page now.</span>
+			</span>
+
+			<span id="note" class="main" data-localize-html="vpn_warning">
+				If you are using a <b>VPN</b>, you may need to temporarily disable it.<br />You can re-enable it afterwards.
+			</span>
+
+			<ol class="main">
+				<li data-localize-html="step1">Login to <a href="https://developer.spotify.com" target="_blank" rel="noopener">Spotify for Developers</a> with your Spotify account.</li>
+				<li data-localize-html="step2">Go to <a href="https://developer.spotify.com/dashboard/create" target="_blank" rel="noopener">Create app</a>.</li>
+				<li data-localize-html="step3">Set <code id="url">http://127.0.0.1:<span class="port"></span></code> as <b>"Redirect URI"</b>.</li>
+				<li data-localize-html="step4">Check <b>"Web API"</b> in <b>"Which API/SDKs are you planning to use?"</b>.</li>
+				<li data-localize-html="step5">Fill the rest of the form to your liking, <b>"Website"</b> can be left empty.</li>
+				<li data-localize-html="step6">Create the app and navigate to the app's dashboard.</li>
+				<li data-localize-html="step7">Click <b>"Basic Information"</b> in the app's dashboard.</li>
+				<li data-localize-html="step8">Copy the <b>"Client ID"</b> to the form below.</li>
+				<li data-localize-html="step9">Click <b>"View client secret"</b> and copy the <b>"Client secret"</b> to the form below.</li>
+				<li data-localize-html="step10">Submit the form below.</li>
+			</ol>
+		</div>
+
+		<form action="/" method="POST" class="main">
+			<div id="error">
+				<span data-localize="error_title">Something went wrong!</span>
+				<br />
+				<small data-localize="error_message">Please double-check the app information and try again.</small>
+			</div>
+
+			<input type="text" id="clientId" name="clientId" placeholder="Client ID" required />
+			<input type="text" id="clientSecret" name="clientSecret" placeholder="Client Secret" required />
+			<input type="submit" value="Submit" />
+		</form>
+	</div>
+
+	<script type="text/javascript" src="/script.js"></script>
+</body>
+</html>

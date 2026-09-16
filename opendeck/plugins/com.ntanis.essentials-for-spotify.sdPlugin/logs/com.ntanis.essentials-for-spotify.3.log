@@ -1,0 +1,5 @@
+2026-06-30T22:36:45.580Z INFO  Essentials for Spotify: Connected to Stream Deck.
+2026-06-30T22:36:45.590Z INFO  Essentials for Spotify: Found global settings.
+2026-06-30T22:36:45.590Z INFO  Essentials for Spotify: Starting connector setup.
+2026-06-30T22:36:45.602Z INFO  Essentials for Spotify: Overlay server listening on port "6546".
+2026-06-30T22:36:45.821Z INFO  Essentials for Spotify: The access token has been refreshed.
