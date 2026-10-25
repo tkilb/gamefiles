@@ -1,0 +1,17 @@
+# Forza Radio Configuration
+# Managed via ~/.gamefiles/forza-radio/config.yaml
+
+music:
+  chill_dir: ~/d2/music/_playlists/forza-radio/chill
+  drive_dir: ~/d2/music/_playlists/forza-radio/drive
+
+telemetry:
+  addr: 127.0.0.1:5300
+  drive_speed_mph: 20.0
+  drive_throttle_pct: 25.0
+  idle_speed_mph: 5.0
+  idle_cooldown_sec: 4.0
+
+audio:
+  fade_sec: 2.0
+  sample_rate: 48000
