@@ -1,0 +1,53 @@
+# PROFILE: gray-zone-warfare
+#################################
+
+###|   _   |   P   |   R   |   M   |   I   |       |   T   |       |       |
+###|===============================================================================
+#5#|       |   i   |   m   |   o   |   b   |       |       |
+#4#|       |   h   |   y   |   q   |   e   |       |       |
+#3#|   t   |   3   |   z   |   2   |   1   |   r   |   c   |   z   |  tab  |  esc  
+#2#|       |   c   | lshft |  spc  |   f   |       |       |
+#1#|       |   x   |  lctr |   h   |   m   |       |       |
+
+# Pinkie
+#################################
+cyborg.pe         = key(key_t)
+
+cyborg.p5         = key(key_i)
+cyborg.p4         = key(key_h)
+cyborg.p3         = key(key_3)
+cyborg.p2         = key(key_c)
+cyborg.p1         = key(key_x)
+
+# Ring
+#################################
+cyborg.r5         = key(key_m)
+cyborg.r4         = key(key_y)
+cyborg.r3         = key(key_z)
+cyborg.r2         = key(key_leftshift)
+cyborg.r1         = key(key_leftctrl)
+
+# Middle
+#################################
+cyborg.m5         = key(key_o)
+cyborg.m4         = key(key_q)
+cyborg.m3         = key(key_2)
+cyborg.m2         = key(key_space)
+cyborg.m1         = key(key_h)
+
+# Index
+#################################
+cyborg.i5         = key(key_b)
+cyborg.i4         = key(key_e)
+cyborg.i3         = key(key_1)
+cyborg.i2         = key(key_f)
+cyborg.i1         = key(key_m)
+
+cyborg.ie         = key(key_r)
+
+# Thumb
+#################################
+cyborg.t4         = key(key_c)
+cyborg.t3         = key(key_z)
+cyborg.t2         = key(key_tab)
+cyborg.t1         = key(key_esc)
