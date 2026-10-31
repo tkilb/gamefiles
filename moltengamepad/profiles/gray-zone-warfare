@@ -5,7 +5,7 @@
 ###|===============================================================================
 #5#|       |   i   |   m   |   o   |   b   |       |       |
 #4#|       |   h   |   y   |   q   |   e   |       |       |
-#3#|   t   |   3   |   z   |   2   |   1   |   r   |   c   |   z   |  tab  |  esc  
+#3#|   t   |   3   |   z   |   2   |   1   |   r   |   w   |   z   |  tab  |  esc  
 #2#|       |   c   | lshft |  spc  |   f   |       |       |
 #1#|       |   x   |  lctr |   h   |   m   |       |       |
 
@@ -47,7 +47,7 @@ cyborg.ie         = key(key_r)
 
 # Thumb
 #################################
-cyborg.t4         = key(key_c)
+cyborg.t4         = toggle(key(key_w))
 cyborg.t3         = key(key_z)
 cyborg.t2         = key(key_tab)
 cyborg.t1         = key(key_esc)
