@@ -48,6 +48,6 @@ cyborg.ie         = key(key_r)
 # Thumb
 #################################
 cyborg.t4         = toggle(key(key_w))
-cyborg.t3         = key(key_z)
+cyborg.t3         = toggle(key(key_w))
 cyborg.t2         = key(key_tab)
 cyborg.t1         = key(key_esc)
