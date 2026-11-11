@@ -1,0 +1,70 @@
+# PROFILE: barotrauma
+# DEVICE: glove80 (left)
+#################################
+
+###|  PE   |   P   |   R   |   M   |   I   |  IE   |       |  T1   |  T2   |  T3   |
+###|==================================================================================
+#6#|   _   |   _   |   _   |   _   |   6   |       |       |       |       |       |
+#5#|   _   |   1   |   2   |   3   |   4   |   5   |       |       |       |       |
+#4#|  tab  |   q   |   c   |   w   |   e   |   h   |       |       |       |       |
+#3#|  esc  |   r   |   a   |   s   |   d   |   g   |       |       |       |       |
+#2#|   _   | lctrl |   z   |   x   |   f   |   v   |       |   7   |   8   |   9   |
+#1#|  dot  | space |  lalt |   y   |   m   |       |       |  esc  | lshft |   0   |
+
+# Pinkie Extra (Outer Column)
+#################################
+glove80.pe1        = key(key_dot)
+glove80.pe3        = key(key_esc)
+glove80.pe4        = key(key_tab)
+
+# Pinkie Column
+#################################
+glove80.p1         = key(key_space)
+glove80.p2         = key(key_leftctrl)
+glove80.p3         = key(key_r)
+glove80.p4         = key(key_q)
+glove80.p5         = key(key_1)
+
+# Ring Column
+#################################
+glove80.r1         = key(key_leftalt)
+glove80.r2         = key(key_z)
+glove80.r3         = key(key_a)
+glove80.r4         = key(key_c)
+glove80.r5         = key(key_2)
+
+# Middle Column
+#################################
+glove80.m1         = key(key_y)
+glove80.m2         = key(key_x)
+glove80.m3         = key(key_s)
+glove80.m4         = key(key_w)
+glove80.m5         = key(key_3)
+
+# Index Column
+#################################
+glove80.i1         = key(key_m)
+glove80.i2         = key(key_f)
+glove80.i3         = key(key_d)
+glove80.i4         = key(key_e)
+glove80.i5         = key(key_4)
+glove80.i6         = key(key_6)
+
+# Index Extra (Inner Column)
+#################################
+glove80.ie2        = key(key_v)
+glove80.ie3        = key(key_g)
+glove80.ie4        = key(key_h)
+glove80.ie5        = key(key_5)
+
+# Thumb Cluster Lower Row (Row 1 height)
+#################################
+glove80.t1         = key(key_esc)
+glove80.t2         = key(key_leftshift)
+glove80.t3         = key(key_0)
+
+# Thumb Cluster Upper Row (Row 2 height)
+#################################
+glove80.t4         = key(key_7)
+glove80.t5         = key(key_8)
+glove80.t6         = key(key_9)

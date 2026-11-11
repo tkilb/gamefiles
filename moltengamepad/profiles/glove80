@@ -1,0 +1,84 @@
+# PROFILE: glove80
+# DEVICE: glove80 (left)
+#################################
+
+###|  PE   |   P   |   R   |   M   |   I   |  IE   |       |  T1   |  T2   |  T3   |
+###|==================================================================================
+#6#|  f1   |  f2   |  f3   |  f4   |  f5   |       |       |       |       |       |
+#5#|  =    |   1   |   2   |   3   |   4   |   5   |       |       |       |       |
+#4#|  tab  |   q   |   w   |   e   |   r   |   t   |       |       |       |       |
+#3#|  esc  |   a   |   s   |   d   |   f   |   g   |       |       |       |       |
+#2#|   `   |   z   |   x   |   c   |   v   |   b   |       | lshft | lctrl |  spc  |
+#1#| magic | home  |  end  | left  | right |       |       |  bs   |  del  | lalt  |
+
+###|  PE   |   P   |   R   |   M   |   I   |  IE   |       |  T1   |  T2   |  T3   |
+###|==================================================================================
+#6#|   _   |   _   |   _   |   _   |   _   |       |       |       |       |       |
+#5#|   _   |   _   |   _   |   _   |   _   |   _   |       |       |       |       |
+#4#|   _   |   _   |   _   |   _   |   _   |   _   |       |       |       |       |
+#3#|   _   |   _   |   _   |   _   |   _   |   _   |       |       |       |       |
+#2#|   _   |   _   |   _   |   _   |   _   |   _   |       |   _   |   _   |   _   |
+#1#|   _   |   _   |   _   |   _   |   _   |       |       |   _   |   _   |   _   |
+
+# Pinkie Extra (Outer Column) - 5 buttons (PE1 is hardware Magic key)
+#################################
+glove80.pe2        = key(key_grave)
+glove80.pe3        = key(key_esc)
+glove80.pe4        = key(key_tab)
+glove80.pe5        = key(key_equal)
+glove80.pe6        = key(key_f1)
+
+# Pinkie Column (Inner Pinkie) - 6 buttons
+#################################
+glove80.p1         = key(key_home)
+glove80.p2         = key(key_z)
+glove80.p3         = key(key_a)
+glove80.p4         = key(key_q)
+glove80.p5         = key(key_1)
+glove80.p6         = key(key_f2)
+
+# Ring Column - 6 buttons
+#################################
+glove80.r1         = key(key_end)
+glove80.r2         = key(key_x)
+glove80.r3         = key(key_s)
+glove80.r4         = key(key_w)
+glove80.r5         = key(key_2)
+glove80.r6         = key(key_f3)
+
+# Middle Column - 6 buttons
+#################################
+glove80.m1         = key(key_left)
+glove80.m2         = key(key_c)
+glove80.m3         = key(key_d)
+glove80.m4         = key(key_e)
+glove80.m5         = key(key_3)
+glove80.m6         = key(key_f4)
+
+# Index Column - 6 buttons
+#################################
+glove80.i1         = key(key_right)
+glove80.i2         = key(key_v)
+glove80.i3         = key(key_f)
+glove80.i4         = key(key_r)
+glove80.i5         = key(key_4)
+glove80.i6         = key(key_f5)
+
+# Index Extra (Inner Column) - 4 buttons (no key on row 1 or row 6)
+#################################
+glove80.ie2        = key(key_b)
+glove80.ie3        = key(key_g)
+glove80.ie4        = key(key_t)
+glove80.ie5        = key(key_5)
+
+# Thumb Cluster Lower Row (Row 1 height) - 3 buttons
+#################################
+glove80.t1         = key(key_backspace)
+glove80.t2         = key(key_delete)
+glove80.t3         = key(key_leftalt)
+
+# Thumb Cluster Upper Row (Row 2 height) - 3 buttons
+#################################
+glove80.t4         = key(key_leftshift)
+glove80.t5         = key(key_leftctrl)
+glove80.t6         = key(key_space)
