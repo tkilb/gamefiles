@@ -6,9 +6,9 @@
 ###|==================================================================================
 #6#|   _   |   _   |   _   |   _   |   6   |       |       |       |       |       |
 #5#|   _   |   1   |   2   |   3   |   4   |   5   |       |       |       |       |
-#4#|  tab  |   q   |   c   |   w   |   e   |   h   |       |       |       |       |
+#4#|  tab  |   q   |   c   |   w   |   -   |   h   |       |       |       |       |
 #3#|  esc  |   r   |   a   |   s   |   d   |   g   |       |       |       |       |
-#2#|   _   | lctrl |   z   |   x   |   f   |   v   |       |   7   |   8   |   9   |
+#2#|   _   | lctrl |   z   |   x   |   e   |   v   |       |   7   |   8   |   9   |
 #1#|  dot  | space |  lalt |   y   |   m   |       |       |  esc  | lshft |   0   |
 
 # Pinkie Extra (Outer Column)
@@ -44,9 +44,9 @@ glove80.m5         = key(key_3)
 # Index Column
 #################################
 glove80.i1         = key(key_m)
-glove80.i2         = key(key_f)
+glove80.i2         = key(key_e)
 glove80.i3         = key(key_d)
-glove80.i4         = key(key_e)
+glove80.i4         = key(key_minus)
 glove80.i5         = key(key_4)
 glove80.i6         = key(key_6)
 
